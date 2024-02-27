@@ -1,0 +1,64 @@
+.SMLTextbox {
+    width: 100%;
+    max-width: 428px;
+    height: 48%;
+    padding: 16px;
+    border-radius: 8px;
+    gap: 8px;
+    background: #F5F7F9;
+    border: none;
+}
+
+.SMLButton {
+    // width: 100%;
+    // max-width: 116px;
+    height: 48%;
+    top: 16px;
+    left: 15px;
+    padding: 16px 32px 16px 32px;
+    border-radius: 8px;
+    gap: 8px;
+    background: #FF4405;
+    border: none;
+    color: #fff;
+}
+
+.SMLCheckbox {
+    width: 24px;
+    height: 24px;
+    border-radius: 5px;
+    border: 1px;
+    background: #FFFFFF;
+    border: 1px solid #E9EAEC
+}
+
+input[type=checkbox]:checked {
+    width: 24px;
+    height: 24px;
+    top: 6px;
+    left: 4px;
+    accent-color: #23F0C7;
+    border: 1px solid #E9EAEC
+}
+
+
+.SMLSignupbutton {
+    width: 100%;
+    max-width: 239px;
+    height: 56px;
+    top: 16px;
+    left: 16px;
+    padding: 16px 32px 16px 32px;
+    border-radius: 8px;
+    border: 1px;
+    gap: 8px;
+
+}
+
+.input-box {
+    width: 428px;
+    height: 77px;
+    top: 129.44px;
+    left: 80px;
+    gap: 8px;
+}

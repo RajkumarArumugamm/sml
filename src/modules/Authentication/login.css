@@ -1,0 +1,28 @@
+.Login-close-div {
+    position: relative;
+    display: flex;
+    width: 16px;
+    height: 16px;
+    top: 24px;
+    left: 548px;
+    padding: 1px;
+    gap: 8px;
+}
+
+.Login-content {
+    width: 486px;
+    height: 571px;
+    top: 59px;
+    left: 51px;
+    border-radius: 8px;
+    border: 1px solid #E9EAEC;
+    position: relative;
+}
+
+.login-label-div {
+    width: 128px;
+    height: 34px;
+    top: 59px;
+    left: 232px;
+    position: static;
+}
