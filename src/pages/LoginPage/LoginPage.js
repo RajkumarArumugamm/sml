@@ -1,8 +1,8 @@
 import React from 'react'
-import "../../shared/styles/Elements.scss"
-import SMLLabel from '../../shared/components/SMLLabel'
-import './login.css';
-import SMLTextBoxWithLabel from '../../shared/components/SMLTextBoxWithLabel';
+import "../../styles/Elements.scss";
+import SMLLabel from '../../components/Shared/SMLLabel/SMLLabel';
+import './LoginPage.css';
+import SMLTextBoxWithLabel from '../../components/Shared/SMLTextBoxWithLabel/SMLTextBoxWithLabel';
 
 const Login = () => {
     return (

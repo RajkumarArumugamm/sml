@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import SMLTextBox from './shared/components/SMLTextBoxWithLabel';
-import Login from './modules/Authentication/Login';
+import SMLTextBox from './components/Shared/SMLTextBoxWithLabel/SMLTextBoxWithLabel';
+import Login from './pages/LoginPage/LoginPage';
 
 function App(props) {
   return (

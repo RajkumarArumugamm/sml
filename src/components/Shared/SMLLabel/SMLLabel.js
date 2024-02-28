@@ -1,6 +1,6 @@
 import React from "react";
-import '../styles/Fonts.scss'
-import '../styles/HTMLControls.scss'
+import '../../../styles/Fonts.scss'
+import '../../../styles/HTMLControls.scss'
 
 
 function SMLLabel(props) {
