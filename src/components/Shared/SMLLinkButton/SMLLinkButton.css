@@ -1,0 +1,10 @@
+.link-btn {
+    margin-left: auto;
+    background: none;
+    border: none;
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .link-btn:hover {
+    text-decoration: underline; /* Underline on hover */
+  }

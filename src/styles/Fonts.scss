@@ -91,6 +91,17 @@
 
 }
 
+.sub-subtitle2 {
+   //styleName: Sub-Subtitle;
+font-family: Elza;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+color: #999999;
+}
+
 .Subtitle2 {
     font-family: DM Sans;
     font-size: 14px;
@@ -125,8 +136,9 @@
     line-height: 21px;
     letter-spacing: 0em;
     text-align: left;
-
+    color: #FFFFFF;
 }
+
 
 .Button2 {
     font-family: DM Sans;
@@ -181,4 +193,8 @@
     line-height: 64px;
     letter-spacing: 0em;
     text-align: left;
+}
+
+.error {
+    color:  #FF4405;
 }

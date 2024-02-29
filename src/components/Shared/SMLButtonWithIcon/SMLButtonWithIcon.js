@@ -1,12 +1,13 @@
 import React from 'react'
+import '../SMLButtonWithIcon/SMLButtonWithIcon.css'
 
-const SMLButtonWithIcon = () => {
+const SMLButtonWithIcon = (props) => {
   return (
-    <div>
+   
       <button className='SMLSignupbutton'>
-        <span className='Button1'>Sign up with Google</span>
+        <span className='sml-iconbtn fontcolorblack'>{props.value}</span>
         </button>
-    </div>
+   
   )
 }
 

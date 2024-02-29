@@ -1,14 +1,15 @@
 import React from 'react'
-import '../styles/Fonts.scss'
-import '../styles/HTMLControls.scss'
+import '../../../styles/Fonts.scss'
+import '../../../styles/HTMLControls.scss'
+import "../SMLButton/SMLButton.css"
 
-const SMLButton = () => {
+const SMLButton = (props) => {
     return (
-        <div>
-            <button className='SMLButton '>
-                <span className='Button1'>Continue</span>
+        
+            <button className={props.style}>
+                <span className='Button1'>{props.value}</span>
             </button>
-        </div>
+        
     )
 }
 

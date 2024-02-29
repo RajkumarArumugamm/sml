@@ -1,0 +1,12 @@
+.SMLButton1 {
+    min-width: 100%;
+max-width: 428px;
+max-height: 51px;
+/* top: 360.51px;
+left: 80px; */
+padding: 16px 32px 16px 32px;
+border-radius: 8px;
+gap: 8px;
+background: #FF4405;
+position: relative;
+}
