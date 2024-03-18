@@ -6,8 +6,8 @@ import "../SMLButton/SMLButton.css"
 const SMLButton = (props) => {
     return (
         
-            <button className={props.style}>
-                <span className='Button1'>{props.value}</span>
+            <button className={props.style} type={props.type?props.type:"Submit"} onClick={props.handleClickEvent}>
+                <span className={props.valueStyle?props.valueStyle:'Button1'}>{props.value}</span>
             </button>
         
     )

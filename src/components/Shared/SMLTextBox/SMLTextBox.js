@@ -4,7 +4,7 @@ import '../../../styles/HTMLControls.scss'
 
 function SMLTextBox(props) {
     return <div>
-        <input className="SMLTextbox" onChange={props.onChange}
+        <input className="SMLTextbox" type="text" onChange={props.onChange}
          />
     </div>
 }

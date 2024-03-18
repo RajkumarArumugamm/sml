@@ -31,19 +31,26 @@
 }
 
 .login-fields {
-    width: 468px; /* Fixed width */
-    height: 77px; /* Fixed height */
-    position: relative; /* or position: relative; depending on your layout */
+    width: 468px;
+    /* Fixed width */
+    height: 77px;
+    /* Fixed height */
+    position: relative;
+    /* or position: relative; depending on your layout */
     display: flex;
     padding: 0.5rem;
     flex-direction: column;
-    gap: 8px; /* Gap between children (if using flexbox or grid) */
+    gap: 8px;
+    /* Gap between children (if using flexbox or grid) */
 }
 
 .login-fields1 {
-    width: 468px; /* Fixed width */
-    height: 77px; /* Fixed height */
-    position: relative; /* or position: relative; depending on your layout */
+    width: 468px;
+    /* Fixed width */
+    height: 77px;
+    /* Fixed height */
+    position: relative;
+    /* or position: relative; depending on your layout */
     display: flex;
     padding: 0.5rem;
     flex-direction: column;
@@ -52,49 +59,49 @@
 .login-main {
     display: flex;
     flex-direction: column;
-    gap:8px;
+    gap: 8px;
     width: 486px;
-height: 571px;
-/* top: 59px;
+    height: 571px;
+    /* top: 59px;
 left: 51px; */
-position: relative;
-border-radius: 8px;
-border: 1px;
+    position: relative;
+    border-radius: 8px;
+    border: 1px;
 
 }
 
 .login-controls {
     display: flex;
     flex-direction: column;
-    gap:4px;
+    gap: 4px;
 }
 
 .login-controls1 {
     display: flex;
     flex-direction: column;
-    gap:25px;
+    gap: 25px;
 }
 
 .login-card-end {
     position: relative;
     width: 232.55px;
-height: 48px;
-top: 20px;
-left: 92px;
+    height: 48px;
+    top: 20px;
+    left: 120px;
 
 }
 
 .login-groupby {
     margin-top: 1rem;
-     display: flex;
-     align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .login-groupbyBtns {
     margin-top: 1rem;
-     display: flex;
-     align-items: center;
-     gap:40px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .btn-no-margin {
@@ -104,21 +111,44 @@ left: 92px;
 }
 
 .btn-no-margin:hover {
-    text-decoration: underline; /* Underline on hover */
-  }
+    text-decoration: underline;
+    /* Underline on hover */
+}
 
-  .div-line {
+.div-line {
     width: 199.34px;
-    height: 1px; /* Set the height for a horizontal line */
+    height: 1px;
+    /* Set the height for a horizontal line */
     /* left: 279.34px;  */
-     /* Border with 1px thickness and solid black color *//* Rotate the line by 180 degrees (if you intended to rotate) */
+    /* Border with 1px thickness and solid black color */
+    /* Rotate the line by 180 degrees (if you intended to rotate) */
     border: 1px solid #E9EAEC;
     background: #E9EAEC;
     margin: 0 10px;
-  }
+}
 
-  .margin-left {
+.margin-left {
     margin-left: auto;
-  }
+}
 
-  
+.login-card{
+    /* top: 168px;
+    left: 191px; */
+    border-radius:24px;
+    background: white;
+    border: 1px solid #E9EAEC;
+    position: relative;
+    /* transform: translate(-50%, -50%); */
+    width: 588px;
+    height: 688px;
+}
+.login-container{
+    background: #121212E5;
+    position: relative;
+    width: 1640px;
+    height: 1024px;
+    /* padding: 58px 426px 168px 26px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

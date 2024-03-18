@@ -1,0 +1,22 @@
+.signUp-fields-inline {
+    display: ruby;
+    margin-right: 20px;
+}
+
+.empty-card-container {
+    width: 268px;
+    height: 448px;
+    top: 152px;
+    left: 250px;
+}
+
+.empty-card {
+    width: 268px;
+    height: 448px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    background: #FF4405;
+    margin-top: -83px;
+    margin-left: 44px;
+
+}

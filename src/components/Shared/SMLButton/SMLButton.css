@@ -10,3 +10,40 @@ gap: 8px;
 background: #FF4405;
 position: relative;
 }
+.SMLButton2 {
+    max-width: 150px;
+    max-height: 51px;
+    padding: 16px 32px 16px 32px;
+    border-radius: 8px;
+    gap: 8px;
+    background: #FF4405;
+    position: relative;
+}
+.SMLSecondaryButton {
+    margin-right:3.5px;
+    max-width: 428px;
+    height: 48px;
+    padding:6px 2px;
+    border-radius: 8px;
+    gap: 8px;
+    background: #F5F7F9; 
+    border: none;
+}
+.SMLWhiteButton{
+    max-width: 150px;
+    max-height: 51px;
+    padding: 16px 32px 16px 32px;
+    border-radius: 8px;
+    gap: 8px;
+    background-color: white;
+    position: relative;
+}
+.SMLBlackButton{
+    max-width: 150px;
+    max-height: 51px;
+    padding: 16px 32px 16px 32px;
+    border-radius: 8px;
+    gap: 8px;
+    background-color: black;
+    position: relative;
+}

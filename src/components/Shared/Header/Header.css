@@ -1,0 +1,48 @@
+.sml-header {
+    height: 60px;
+    margin: 10px;
+    width: 950px;
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    width: 223px;
+    height: 48px;
+    margin-top: 32px;
+    margin-left: 288px;
+    gap:10px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 32px 16px 20px 40px;
+    width: 678px;
+    height: 18px;
+    margin-top: 32px;
+    margin-left: 40px;
+    justify-content: space-between;
+}
+
+.search-box input[type="text"] {
+    border: none;
+    outline: none;
+}
+
+.search-icon {
+    margin-left: 5px;
+    color: #aaa;
+    cursor: pointer;
+}

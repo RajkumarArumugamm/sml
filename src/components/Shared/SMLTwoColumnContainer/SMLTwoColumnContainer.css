@@ -1,0 +1,10 @@
+.two-column-container {
+    display: flex; /* Use Flexbox to create a flex container */
+    justify-content: space-between; /* Distribute the items evenly along the main axis */
+    flex-wrap: wrap; /* Allow the items to wrap to the next row if necessary */
+  }
+  
+  .two-column-container > div {
+    width: calc(50% - 20px); /* Set the width of each column to 50% minus any padding */
+    padding: 10px; /* Add padding to each column */
+  }

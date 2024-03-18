@@ -1,0 +1,145 @@
+.signup-card{
+    width: 1058px;
+    height: 788px;
+    border-radius:24px;
+    background: white;
+    border: 1px solid #E9EAEC;
+    position: relative;
+}
+.signUp-container{
+    background: #121212E5;
+    position: relative;
+    width: 1640px;
+    height: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardHeader {
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    width: 377.16px;
+    height: 22px;
+    top: 122px;
+    left:70px;
+    color: #000000;
+}
+.signUp-content {
+    width: 495px;
+    height: 500.56px;
+    top: 78.44px;
+    left: 51px;
+    border-radius: 8px;
+    border: 1px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 58px;
+}
+.signUp-right-content {
+    width: 440px;
+    height: 400.56px;
+    top:  160.55px;
+    left: 100px;
+    border-radius: 8px;
+    border: 1px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 58px;
+}
+
+.signUp-label-div {
+    width: 486px;
+    height: 34px;
+    top: 59px;
+    left: 51px;
+    position: relative;
+}
+.signUp-close-div {
+    position: relative;
+    display: flex;
+    width: 16px;
+    height: 16px;
+    margin: 5px 15px 0px 15px;
+    left: 175px;
+    /* padding: 1px; */
+    /* gap: 8px; */
+}
+.signUp-main {
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    width: 1000px;
+    height: 571px;
+    /* top: 59px;
+    left: 51px; */
+    position: relative;
+    border-radius: 8px;
+    border: 1px;
+}
+
+.signUp-controls {
+    display: flex;
+    flex-direction: column;
+    gap:4px;
+}
+
+
+.signUp-fields {
+    width: 495px; /* Fixed width */
+    height: 77px; /* Fixed height */
+    position: relative; /* or position: relative; depending on your layout */
+    display: flex;
+    padding: 0.5rem;
+    flex-direction: column;
+    gap: 8px; /* Gap between children (if using flexbox or grid) */
+    margin-bottom: 10px;
+}
+.signUp-groupby {
+    margin-top: 1rem;
+     display: flex;
+     align-items: center;
+}
+
+.signUp-grid {
+    display: grid;
+    grid-template-columns: 495px 10px 495px;
+    grid-gap: 8px;
+    width: 1000px;
+    height: 571px;
+    /* top: 59px;
+    left: 51px; */
+    position: relative;
+    border-radius: 8px;
+    border: 1px;
+}
+
+.div-vertical-line {
+    width: 1px;
+    height: 200px; /* Set the height for a horizontal line */
+    border: 1px solid #E9EAEC;
+    background: #E9EAEC;
+    margin: 0 10px;
+  }
+  .divider {
+    border-left: 6px solid green;
+    height: 200px;
+    border: 1px solid #E9EAEC;
+    background: #E9EAEC;
+    width:1px;
+  }
+
+  .signUp-footer {
+    padding:30px;
+  }
+  .signUp-progress-steps{
+    width: 600px;
+    margin: 10px;
+    margin-left: 200px;
+  }
+
+

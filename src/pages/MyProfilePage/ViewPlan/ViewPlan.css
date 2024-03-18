@@ -1,0 +1,118 @@
+/* Custom CSS for cards */
+.card {
+    /* padding: 0px 10px 60px 60px; Add space between cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow to cards */
+    height: 500px;
+    width: 393px;
+    margin: 70px 0px 30px 25px;
+    background-color: #e1e3e6;
+  }
+  
+  .premium-card{
+    background-color: #e80909;
+
+  }
+  .card-body {
+    padding: 20px; /* Add padding inside the card body */
+  }
+  
+  .card-title {
+    font-size: 20px; /* Set title font size */
+    font-weight: bold; /* Set title font weight */
+  }
+  
+  .card-text {
+    font-size: 16px; /* Set content font size */
+  }
+  
+  .viewPlan-container{
+    background: #121212E5;
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    padding: 80px 80px 50px 300px;
+}
+.viewPlan-card{
+    width: 1320px;
+    height: 750px;
+    top: 50px;
+    left: 80px;
+    border-radius:24px;
+    background: white;
+    border: 1px solid #E9EAEC;
+    position: relative;
+}
+
+.viewPlan-label-div {
+    width: 486px;
+    height: 34px;
+    top: 59px;
+    position: relative;
+    left: 475px;
+}
+.viewPlan-close-div {
+    position: relative;
+    display: flex;
+    width: 16px;
+    height: 16px;
+    top: 24px;
+    left: 1250px;
+    padding: 1px;
+    gap: 8px;
+}
+.viewPlan-main {
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    width: 1000px;
+    height: 571px;
+    position: relative;
+    border-radius: 8px;
+    border: 1px;
+}
+
+.viewPlan-grid {
+    display: grid;
+    grid-template-columns: 433px 433px 433px;
+    grid-gap: 8px;
+    width: 1300px;
+    height: 580px;
+    position: relative;
+    border-radius: 8px;
+    border: 1px;
+}
+.card-header{
+  margin:30px;
+  text-align: center;
+}
+.viewPlan-sub-header{
+  font-size: -webkit-xxx-large;
+  padding-left:122px;
+  font-weight: 600;
+}
+.viewPlan-sub-header::after {
+  content: "/month";
+  font-size: small;
+}
+.viewPlan-horizontal-line{
+  border-top: 1px solid white; /* Change color and size as needed */
+  margin: 10px 0; /* Adjust spacing above and below the line */
+}
+.viewPlan-card-content{
+  padding:18px;
+}
+.viewPlan-fields-groupBy{
+  display:flex;
+  gap:15px;
+}
+.card-footer{
+  text-align: center;
+}
+
+
+
+
+
+
+
+  

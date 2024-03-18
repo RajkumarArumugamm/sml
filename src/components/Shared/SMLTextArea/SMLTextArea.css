@@ -1,0 +1,11 @@
+.SMLTextarea{
+    resize: none; /* Prevents the user from resizing the textarea */
+    max-width: 428px;
+    height: 150px;
+    padding:6px;
+    border-radius: 8px;
+    gap: 8px;
+    background: #F5F7F9;
+    border: none;
+    width: Fill (428px)
+}
