@@ -1,118 +1,160 @@
 /* Custom CSS for cards */
 .card {
-    /* padding: 0px 10px 60px 60px; Add space between cards */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow to cards */
-    height: 500px;
-    width: 393px;
-    margin: 70px 0px 30px 25px;
-    background-color: #e1e3e6;
-  }
-  
-  .premium-card{
-    background-color: #e80909;
-
-  }
-  .card-body {
-    padding: 20px; /* Add padding inside the card body */
-  }
-  
-  .card-title {
-    font-size: 20px; /* Set title font size */
-    font-weight: bold; /* Set title font weight */
-  }
-  
-  .card-text {
-    font-size: 16px; /* Set content font size */
-  }
-  
-  .viewPlan-container{
-    background: #121212E5;
-    position: relative;
-    width: 1440px;
-    height: 1024px;
-    padding: 80px 80px 50px 300px;
+  /* padding: 0px 10px 60px 60px;  */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Add shadow to cards */
+  /* height: 500px;
+  width: 393px;
+  margin: 70px 0px 30px 25px;
+  background-color: #e1e3e6; */
+  width: 268px;
+  height: 486px;
+  margin-top: 12px;
+  margin-left: 70px;
+  background-color: #E9EAEC;
+  border-radius: 8px;
 }
-.viewPlan-card{
-    width: 1320px;
-    height: 750px;
-    top: 50px;
-    left: 80px;
-    border-radius:24px;
-    background: white;
-    border: 1px solid #E9EAEC;
-    position: relative;
+
+.premium-card {
+  background-color: #FF4405;
+
+}
+
+.card-body {
+  padding: 20px;
+  /* Add padding inside the card body */
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: DM Sans;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.card-text {
+  font-size: 16px;
+  /* Set content font size */
+}
+
+.viewPlan-container {
+  background: #121212E5;
+  width: 1440px;
+  height: 1024px;
+  padding: 80px 80px 50px 300px;
+}
+
+.viewPlan-card {
+  border-radius: 8px;
+  background: #FFFFFF;
+  border: 1px solid #E9EAEC;
+  width: 992px;
+  height: 640px;
+  top: 95px;
+  left: 144px;
 }
 
 .viewPlan-label-div {
-    width: 486px;
-    height: 34px;
-    top: 59px;
-    position: relative;
-    left: 475px;
+  left: 386px;
+  text-align: center;
 }
+
 .viewPlan-close-div {
-    position: relative;
-    display: flex;
-    width: 16px;
-    height: 16px;
-    top: 24px;
-    left: 1250px;
-    padding: 1px;
-    gap: 8px;
-}
-.viewPlan-main {
-    display: flex;
-    flex-direction: column;
-    gap:8px;
-    width: 1000px;
-    height: 571px;
-    position: relative;
-    border-radius: 8px;
-    border: 1px;
+  position: relative;
+  display: flex;
+  padding: 1px;
+  gap: 8px;
+  left: 952px;
 }
 
 .viewPlan-grid {
-    display: grid;
-    grid-template-columns: 433px 433px 433px;
-    grid-gap: 8px;
-    width: 1300px;
-    height: 580px;
-    position: relative;
-    border-radius: 8px;
-    border: 1px;
+  display: grid;
+  grid-gap: 8px;
+  grid-template-columns: 279px 279px 279px;
+  width: 852px;
+  height: 448px;
+  top: 122px;
+  left: 70px;
+  border-radius: 8px;
+  border: 1px;
 }
-.card-header{
-  margin:30px;
+
+.card-header {
+  /* margin: 30px; */
   text-align: center;
+  width:158.79px;
+  height:22px;
+  margin-top:32px;
+  margin-left:55px;
+
 }
-.viewPlan-sub-header{
-  font-size: -webkit-xxx-large;
-  padding-left:122px;
+
+.viewPlan-sub-header-block{
+  margin-left: 71px;
+  top: 72px;
+  width: 126px;
+  height: 48px;
+}
+
+.viewPlan-sub-header-content {
+  font-family: elza;
   font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: right;
+  width:64px;
+  height:48px;
 }
-.viewPlan-sub-header::after {
+
+.viewPlan-sub-header-content::after {
   content: "/month";
-  font-size: small;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #141414;
+  width: 58px;
+  height:21px;
+  font-family: DM Sans;
 }
-.viewPlan-horizontal-line{
-  border-top: 1px solid white; /* Change color and size as needed */
-  margin: 10px 0; /* Adjust spacing above and below the line */
+
+.viewPlan-horizontal-line {
+  border-top: 1px solid #FFFFFF;
+  margin: 10px 0;
+  width:224px;
+  top: 144px;
+  left: 22px;
 }
-.viewPlan-card-content{
-  padding:18px;
+
+.viewPlan-card-content {
+  padding: 8px;
+  width:208px;
+  height:132px;
+  top:168px;
+  left:24px;
+  gap:8px;
 }
-.viewPlan-fields-groupBy{
-  display:flex;
-  gap:15px;
+
+.viewPlan-fields-groupBy {
+  display: flex;
+  gap: 11px;
 }
-.card-footer{
+
+.card-footer {
+  margin-top:95px;
+  margin-left:70px;
+  /* text-align: center; */
+}
+.premium-card-sub-caption{
+  font-family: Reenie Beanie;
+  font-weight: 500;
+  font-size:36px;
+  line-height: 25.2px;
+  letter-spacing: 0.02rem;
   text-align: center;
+  width: 66px;
+  height:50px;
+  top:8px;
+  left:194px;
 }
-
-
-
-
-
-
-
-  
