@@ -1,0 +1,111 @@
+
+.myProfile-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.myProfile-header {
+    color: black;
+    height: 60px;
+    top: 32px;
+    left: 40px;
+}
+
+.myProfile-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    width: 1035px;
+    height:832px;
+    left:245px;
+    background-color: #F5F7F9;
+}
+
+.myProfile-main-content {
+    flex-grow: 1;
+    padding: 50px 30px 50px 50px;
+    margin-top: 20px;
+}
+.profile-photo-card{
+    width: 422px;
+    height: 121px;
+    top: 179px;
+    left: 38.5px;
+    border-radius: 8px;
+    justify-content: space-between;
+    padding: 16px 24px 16px 24px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 4px #8E8DD0;
+    display: flex;
+    margin-bottom: 5px;
+}
+.profile-photo-avatar{
+    width: 288px;
+    height: 85px;
+    gap: 16px;
+    display: flex;
+}
+.profile-add-photo{
+    margin-top:25px;
+}
+.profile-password-card{
+    width: 419px;
+    height: 153px;
+    top: 389px;
+    left: 40px;
+    border-radius: 8px;
+    border: 0px 0px 0.5px 0px;
+    padding: 24px;
+    gap:8px;
+    box-shadow: 0 4px 4px #8E8DD0;
+    background-color: #FFFFFF;
+    margin-bottom: 5px;
+}
+.profile-email-card{
+    width: 419px;
+    height: 72px;
+    top: 310px;
+    left: 40px;
+    border-radius: 8px;
+    border: 0px 0px 0.5px 0px;
+    padding: 24px;
+    gap:10px;
+    box-shadow: 0 4px 4px #8E8DD0;
+    background-color: #FFFFFF;
+    margin-bottom: 5px;
+    display: flex;
+}
+.profile-links-card{
+    width: 419px;
+    height: 161px;
+    top: 550px;
+    left: 40px;
+    border-radius: 8px;
+    justify-content: space-between;
+    padding: 24px;
+    box-shadow: 0 4px 4px #8E8DD0;
+    background-color: #FFFFFF;
+    margin-bottom: 5px;
+}
+.profile-plan-card{
+    width: 419px;
+    height: 72px;
+    top: 720px;
+    left: 40px;
+    border-radius: 8px;
+    border: 0px 0px 0.5px 0px;
+    padding: 24px;
+    gap:10px;
+    box-shadow: 0 4px 4px #8E8DD0;
+    background-color: #FFFFFF;
+}
+.profile-email-card-body , .profile-email-card-content{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+.profile-email-card-value{
+    display: flex;
+    gap:10px;
+}

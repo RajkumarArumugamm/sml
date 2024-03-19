@@ -1,12 +1,12 @@
 .side-menu-bar {
-    width: 250px;
-    background-color: black;
+    background-color: #141414;
     color: #fff;
     height: 832px;
     border-radius: 0px 24px 0px 0px;
     display: flex;
     flex-direction: column;
     border-top-right-radius: 5%;
+    width:245px;
   }
   
   .header {

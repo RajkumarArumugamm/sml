@@ -7,6 +7,7 @@ import SideNav from './components/Shared/SideNav/SideNav';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Dashboard from './pages/dashboard/dashboard';
 import ViewPlan from './pages/MyProfilePage/ViewPlan/ViewPlan';
+import MyProfile from './pages/MyProfilePage/MyProfile';
 
 
 function App(props) {
@@ -18,6 +19,8 @@ function App(props) {
             <Route exact path="/signUp" element={<SignUpPage />} />
             <Route exact path="/dashboard" element={<Dashboard />} />
             <Route exact path="/viewPlan" element={<ViewPlan />} />
+            <Route exact path="/myProfile" element={<MyProfile />} />
+            <Route exact path="/" element={<Dashboard />} />
           </Routes>
         </Router>
       {/* <Login /> */}
