@@ -23,9 +23,6 @@ function App(props) {
             <Route exact path="/" element={<Dashboard />} />
           </Routes>
         </Router>
-      {/* <Login /> */}
-      {/* <SignUpPage/> */}
-      {/* <SideNav /> */}
     </div>
   );
 }

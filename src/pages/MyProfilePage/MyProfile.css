@@ -34,15 +34,15 @@
     left: 38.5px;
     border-radius: 8px;
     justify-content: space-between;
-    padding: 16px 24px 16px 24px;
+    padding: 30px 24px 16px 24px;
     background-color: #FFFFFF;
     box-shadow: 0 4px 4px #8E8DD0;
     display: flex;
     margin-bottom: 5px;
 }
 .profile-photo-avatar{
-    width: 288px;
-    height: 85px;
+    width: 163px;
+    height: 59px;
     gap: 16px;
     display: flex;
 }
@@ -108,4 +108,16 @@
 .profile-email-card-value{
     display: flex;
     gap:10px;
+}
+.profile-email-card-body , .profile-email-card-content, .profile-plan-card-body , .profile-plan-card-content{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+.profile-email-card-value, .profile-plan-card-value,.profile-password-card-value{
+    display: flex;
+    gap:10px;
+}
+.profile-fields{
+    margin-bottom:3px;
 }

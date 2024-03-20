@@ -5,6 +5,7 @@ import SMLLabel from '../../../components/Shared/SMLLabel/SMLLabel';
 import SMLCheckbox from '../../../components/Shared/SMLCheckbox/SMLCheckbox';
 import SMLButton from '../../../components/Shared/SMLButton/SMLButton';
 
+
 const ViewPlan = () => {
     return (
         <div className='viewPlan-container'>
@@ -12,15 +13,14 @@ const ViewPlan = () => {
                 <div className='viewPlan-close-div'>
                     x
                 </div>
-                {/* <div className="viewPlan-main"> */}
                 <div className='viewPlan-label-div'>
                     <SMLLabel value="Upgrade Your Plan" style="Mainheader1" />
                 </div>
                 <form className="viewPlan-grid">
                     <Card>
-                        <Card.Header>
+                        <div class="viewPlan-card-header">
                             <Card.Title>Basic</Card.Title>
-                        </Card.Header>
+                        </div>
                         <Card.Body>
                             <div className='viewPlan-sub-header-block'>
                                 <div className="viewPlan-sub-header-content">
@@ -51,14 +51,14 @@ const ViewPlan = () => {
                                 </div>
                             </div>
                         </Card.Body>
-                        <Card.Footer>
+                        <div className='viewPlan-card-footer'>
                             <SMLLabel value="Current Plan" style="Label1"></SMLLabel>
-                        </Card.Footer>
+                        </div>
                     </Card>
                     <Card className='premium-card'>
-                        <Card.Header>
+                        <div className='viewPlan-card-header'>
                             <Card.Title>Premium</Card.Title>
-                        </Card.Header>
+                        </div>
                         {/* <div className="premium-card-sub-caption">BEST VALUE</div> */}
                         <Card.Body>
                             <div className='viewPlan-sub-header-block'>
@@ -90,14 +90,14 @@ const ViewPlan = () => {
                                 </div>
                             </div>
                         </Card.Body>
-                        <Card.Footer>
+                        <div className='viewPlan-card-footer'>
                             <SMLButton value="Upgrade" style="SMLWhiteButton" valueStyle="Button4"></SMLButton>
-                        </Card.Footer>
+                        </div>
                     </Card>
                     <Card>
-                        <Card.Header>
+                        <div className='viewPlan-card-header'>
                             <Card.Title>Pro</Card.Title>
-                        </Card.Header>
+                        </div>
                         <Card.Body>
                             <div className='viewPlan-sub-header-block'>
                                 <div className="viewPlan-sub-header-content">
@@ -128,12 +128,11 @@ const ViewPlan = () => {
                                 </div>
                             </div>
                         </Card.Body>
-                        <Card.Footer>
+                        <div className='viewPlan-card-footer'>
                             <SMLButton value="Upgrade" style="SMLBlackButton" valueStyle="Button1"></SMLButton>
-                        </Card.Footer>
+                        </div>
                     </Card>
                 </form>
-                {/* </div> */}
             </div>
         </div>
     );
